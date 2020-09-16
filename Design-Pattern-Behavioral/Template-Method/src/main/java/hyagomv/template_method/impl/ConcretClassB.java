@@ -2,12 +2,12 @@ package hyagomv.template_method.impl;
 
 public class ConcretClassB extends BaseClasse {
 
-	public void stepOne() {
-		System.out.println("Etapa UM do Algoritmo");
+	public void passoUm() {
+		System.out.printf("%s%10s%28s%12s%26s%n", "Classe B", "|","Etapa UM do Algoritmo", "|", "[ETAPA OBRIGATÓRIO]");
 	}
 
-	public void stepTwo() {
-		System.out.println("Etapa DOIS do Algoritmo [CUSTOMIZADA]");
+	public void passoDois() {
+		System.out.printf("%s%10s%28s%12s%26s%n", "Classe B", "|","Etapa UM do Algoritmo", "|", "[ETAPA CUSTOMIZADA]");
 	}
 
 }
